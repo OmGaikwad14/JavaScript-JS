@@ -1,1 +1,7 @@
-
+// String => ""
+// Number => 2 to power 53
+// Boolean => true/false
+// Undefined => variable decleared but value not
+// Null => standalone value
+// Symbol => unique
+// BigInt
