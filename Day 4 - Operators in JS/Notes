@@ -1,1 +1,70 @@
+String to number conversion
 
+console.log("1" + 2 + 2); => String is first value then all value print side-by-side in string
+console.log(1 + 2 + "2"); => String is last value then first value convert
+
+Arithmetic Operation
+
+console.log(2 + 2); // Addition
+console.log(2 - 2); // Subtraction
+console.log(2 * 2); // Multiplication
+console.log(2 ** 3); // Exponentiation power of value
+console.log(2 / 3); // Division
+console.log(2 % 3); // Modulus
+console.log(++); // Increment
+console.log(--); // Decrement
+
+Assignment Operation
+
+x = y;
+x += y;
+x -= y;
+x *= y;
+x **= y;
+x /= y;
+x %= y;
+
+// console.log(x);
+
+Comparison Operation
+
+// age == 18; => Equal to
+// age != 18; => Not equal to
+// age === 18; => Equal to and type
+// age !== 18; => Not equal to or not equal type
+// age > 18; => Grater than
+// age < 18; => Less than
+// age >= 18; => Grater than Equal to
+// age <= 18; => Less than Equal to
+// age ? 18; => Turnary Operator
+
+if (age == 18) {
+    console.log("You can drive");
+}
+else {
+    console.log("You cannot drive");
+}
+
+> "3" == 3
+true
+> "3" === 3
+false
+> "3" === "3"
+true
+
+Logical Operator
+
+> !true
+false
+> !false
+true
+> a = 6
+6
+> b = 7
+7
+> a!= b
+true
+> a!=b && b!=a
+true
+> a!=b || b==a
+true
