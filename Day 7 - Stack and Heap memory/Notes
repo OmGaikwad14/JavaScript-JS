@@ -1,3 +1,3 @@
 // Two types of Memory:
-=> Stack;
-=> Heap;
+=> Stack: Use in Primitive datatype;
+=> Heap: Use in Non-Primitive datatype;
