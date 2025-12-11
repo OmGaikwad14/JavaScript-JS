@@ -27,10 +27,11 @@ const newStringOne = "  Vishal  ";
 console.log(newStringOne);
 console.log(newStringOne.trim());
 
-const url = "https://www.youtube.com/Om%14gaikead";
+const url = "https://www.youtube.com/Om%14gaikwad";
 
 console.log(url.replace('%14', '-'));
 
 console.log(url.includes('Om'));
+
 
 console.log(gameName.split('-'));
