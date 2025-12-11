@@ -1,1 +1,5 @@
+// console.log(name + repoCount + " Value"); // old syntax
 
+//console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); // new syntax => String Interpulation
+
+// const gameName = new String('Volly-ball'); // output in length and prototypes
