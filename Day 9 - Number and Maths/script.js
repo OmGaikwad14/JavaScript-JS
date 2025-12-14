@@ -1,5 +1,5 @@
 const score = 400;
-console.log(score);
+// console.log(score);
 
 const balance = new Number(100);
 console.log(balance);
@@ -14,7 +14,7 @@ console.log(otherNumber.toPrecision(4));
 const hundreds = 1000000;
 console.log(hundreds.toLocaleString('en-IN'));
 
-const number = Number.MAX_VALUE
+const number = Number.MAX_VALUE;
 
 console.log(number);
 
