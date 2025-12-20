@@ -6,13 +6,11 @@ const course = {
 
 // console.log(course.courseInstructor);
 
-
 const { courseInstructor: instructor } = course
 console.log(instructor);
 
 
 // JSON API - (Application Programming Interface)
-
 
 // {
 //     "name": "Vishal",
@@ -24,4 +22,5 @@ console.log(instructor);
 //     {},
 //     {},
 //     {}
+
 // ]
