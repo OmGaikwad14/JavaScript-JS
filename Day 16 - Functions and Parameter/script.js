@@ -7,7 +7,7 @@ function sayMyName() {
     console.log("L");
 }
 
-// sayMyName()
+sayMyName()
 
 // function addTwoNumber(number1, number2) {
 //     console.log(number1 + number2);
@@ -18,6 +18,7 @@ function addTwoNumber(number1, number2) {
     // let result1 = number1 + number2
     // return result1
     return number1 + number2
+    // console.log("Vishal") // after return value not execute
 }
 
 const result1 = addTwoNumber(3, 4);
@@ -36,4 +37,5 @@ function loginUserMessage(username = "Mayur") {
 }
 
 // console.log(loginUserMessage("Vishal"));
+
 console.log(loginUserMessage());
