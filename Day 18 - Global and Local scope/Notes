@@ -1,1 +1,5 @@
+// Global and Local scope
 
+// let => Block Scope
+// const => Constant
+// var => Global Scope
