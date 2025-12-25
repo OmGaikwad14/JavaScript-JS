@@ -6,21 +6,20 @@ const user = {
         console.log(`${this.username}, welcome to website`);
         console.log(this);
     }
-
 }
 
-// user.welcomemessage()
-// user.username = "Sam"
-// user.welcomemessage()
+user.welcomemessage()
+user.username = "Sam"
+user.welcomemessage()
 
-// console.log(this);
+console.log(this);
 
-// function chai() {
-//     let username = "Vishal";
-//     console.log(this.username);
-// }
+function chai() {
+    let username = "Vishal";
+    console.log(this.username);
+}
 
-// chai()
+chai()
 
 // const chai = function () {
 //     let username = "Vishal";
@@ -32,7 +31,7 @@ const chai = () => {
     console.log(this);
 }
 
-// chai()
+chai()
 
 
 // const addTwo = (num1, num2) => {
@@ -44,7 +43,6 @@ const chai = () => {
 // const addTwo = (num1, num2) => (num1 + num2)
 
 const addTwo = (num1, num2) => ({ username: "Vishal" })
-
 
 console.log(addTwo(3, 5));
 
