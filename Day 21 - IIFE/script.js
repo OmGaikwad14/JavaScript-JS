@@ -8,8 +8,8 @@
 
 // chai()
 
-
 ((name) => {
     // unnamed IIFE
     console.log(`DB CONNECTED TO ${name}`);
+
 })(`Vishal`)
