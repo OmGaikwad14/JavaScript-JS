@@ -1,0 +1,26 @@
+++++++++++++ Execute Code ++++++++++++
+
+Step:1 => Globel Execution allocate in (this)
+
+Step:2 => Memory creation phase (MCP)
+            val1 = undifined    
+            val2 = undifined    
+            addnum = defination
+            result1 = undifined    
+            result2 = undifined
+ 
+Step:3 => Execution phase (EP)
+            val1 = 10
+            val2 = 5
+            addnum = New executional context => (new variable environment + Execution thread) <= Delete after execute
+            result1 = 15                   ||=> Memory phase (val1 = undifined)  => Execution context (num1 = 10)
+            result2 = 15                                    (val2 = undifined)                       (num2 = 5)
+                                                            (total = undifined)                      (total = 15)
+
+
+++++++++++++ Call Stack ++++++++++++
+
+Globel Execution
+
+Last in First Out (LIFO)
+
