@@ -1,0 +1,35 @@
+// document.getElementById('title')
+// <h1 id=​"title" class=​"heading">​DOM learning on Chai aur Code​</h1>​
+
+// document.getElementById('title').className
+// 'heading'
+
+// document.getElementById('title').id
+// 'title'
+
+// document.getElementById('title').getAttribute('id')
+// 'title'
+
+// document.getElementById('title').setAttribute('class', 'test')
+// undefined
+
+// title.style.backgroundColor = 'green'
+// 'green'
+
+// title.style.padding = '15px'
+// '15px'
+
+// title.style.borderRadius = '15px'
+// '15px'
+
+title.innerHTML
+'DOM learning on Chai aur Code'
+title.innerText
+'DOM learning on Chai aur Code'
+title.textContent
+'DOM learning on Chai aur Code'
+
+title.innerText
+'DOM learning on Chai aur Code'
+title.textContent
+'DOM learning on Chai aur Code test text'
