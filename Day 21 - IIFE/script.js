@@ -6,7 +6,7 @@
     console.log(`DB CONNECTED`);
 })();
 
-// chai()
+   chai()
 
 ((name) => {
     // unnamed IIFE
